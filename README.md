@@ -76,6 +76,17 @@ cloud-ascent-ace/
 
 ## 🚀 Quick start
 
+> 📘 **New here? Follow the step-by-step [INSTALL.md](INSTALL.md)** — prerequisites,
+> every run option, verification, and troubleshooting in one place.
+
+### ⭐ Easiest — one command (full stack)
+```bash
+./start.sh        # macOS / Linux
+.\start.ps1       # Windows (PowerShell)
+# open http://localhost:8080
+```
+Generates a local session secret on first run, installs deps, and serves the app.
+
 ### Option A — frontend only (zero setup)
 ```bash
 cd frontend
