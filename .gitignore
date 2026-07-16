@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+# env & secrets — never commit
+.env
+.env.*
+!.env.example
+# database & data
+backend/data/*.db
+backend/data/*.db-*
+*.sqlite
+*.sqlite-*
+# logs
+*.log
+npm-debug.log*
+# os / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
